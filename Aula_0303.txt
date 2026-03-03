@@ -2,3 +2,6 @@ git config --global user.name "username"
 git config --global --list
 git config --global user.mail "usermail.com"
 git config --global --unset user.name
+git branch "namebranch"
+git checkout -b novabranch
+git switch -c novabranch
