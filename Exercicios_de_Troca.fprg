@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicios_de_Troca"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-10 05:03:14 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN04xMjYzNTk0OzIwMjYtMDItMTA7IjAyOjQwOjI5ICI7MjM2NQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN04xMjYzNTk0OzIwMjYtMDItMTA7IjA1OjAzOjE0ICI7MTsyNDY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ContadorDeProdutos" type="Integer" array="False" size=""/>
+            <assign variable="ContadorDeProdutos" expression="100"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; &quot;ContadorDeProdutos&quot;" newline="True"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; ContadorDeProdutos" newline="True"/>
+            <declare name="variavelA" type="Integer" array="False" size=""/>
+            <assign variable="variavelA" expression="10"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; &quot;VariavelB&quot;" newline="True"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; variavelA" newline="True"/>
+            <declare name="variavelB" type="Integer" array="False" size=""/>
+            <assign variable="variavelB" expression="20"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; &quot;VariavelA&quot;" newline="True"/>
+            <output expression="&quot;Come&#231;ando a contar os produtos&quot;&amp; variavelB" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
